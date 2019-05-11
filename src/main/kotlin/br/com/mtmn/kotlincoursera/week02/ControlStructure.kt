@@ -85,4 +85,10 @@ class Loops {
             print(i) //12345678
         }
     }
+
+    fun forr4() {
+        for (ch in "abc") { //prints bcd
+            print(ch + 1)
+        }
+    }
 }
